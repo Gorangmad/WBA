@@ -11,6 +11,6 @@ public class WorldController {
     @RequestMapping(value="demo", method=RequestMethod.GET)
     @ResponseBody
     public String getHelloWorld() {
-    return "<h1>Hello World Spring Boot Teil 4!</h1>";
+    return "<h1>Hello World Spring Boot Teil 1!</h1>";
     }
 }
